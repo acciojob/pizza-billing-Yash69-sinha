@@ -26,7 +26,7 @@ public class Pizza {
         this.cheesePrize=80;
         this.paperbagPrize=20;
 
-        this.bill="Base prize of bill: "+this.BillPrice+"\n";
+        this.bill="Base Price Of The Pizza: "+this.BillPrice+"\n";
         // your code goes here
     }
 
@@ -79,6 +79,7 @@ public class Pizza {
             {
                 bill=bill+"Paperbag Added: "+this.paperbagPrize+"\n";
             }
+            bill=bill+"Total Price: "+BillPrice+"\n";
             isbillGenerated=true;
         }
 
